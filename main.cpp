@@ -100,7 +100,6 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
     return {}; //if your function returns something other than void, add 'return {};' at the end of it.
 } 
 
-int sellItem(int itemIdx, int itemValue);
 /*
  1)
  */
@@ -110,7 +109,7 @@ int sellItem(int itemIdx = 12, int itemValue = 100)
     return{};
 }
 
-float collectInterest(float moneyAmount, float interestPercent, int accountNumber);
+
 /*
  2)
  */
@@ -120,7 +119,6 @@ float collectInterest(float moneyAmount, float interestAmount= 0.075f, int accou
     return{};
 }
 
-void saveMidiNoteToList(int midiChannel, int notePitch, int noteVelocity, float timePrecise);
 /*
  3)
  */
@@ -129,7 +127,6 @@ void saveMidiNoteToList(int midiChannel, int notePitch, int noteVelocity, float 
     ignoreUnused(midiChannel, notePitch, noteVelocity, timePrecise);
 }
 
-int clampInt(int number);
 /*
  4)
  */
@@ -139,7 +136,6 @@ int clampInt(int number)
     return{};
 }
 
-float clampFloat(float number);
 /*
  5)
  */
@@ -149,7 +145,6 @@ float clampFloat(float number = 354.12f)
     return{};
 }
 
-bool playSound(float pitch, float duration);
 /*
  6)
  */
@@ -159,7 +154,6 @@ bool playSound(float pitch, float duration = 1.3f)
     return{};
 }
 
-void logButtonPress(char button, float timePrecise);
 /*
  7)
  */
@@ -168,7 +162,6 @@ void logButtonPress(char button = 'B', float timePrecise = 1443.1534f)
     ignoreUnused(button, timePrecise);
 }
 
-void saveTimeStamp(float timePrecise);
 /*
  8)
  */
@@ -177,7 +170,6 @@ void saveTimeStamp(float timePrecise = 4598.2345f)
     ignoreUnused(timePrecise);
 }
 
-void run(bool startWithLeftFoot, int speed, float direction);
 /*
  9)
  */
@@ -186,7 +178,6 @@ void run(bool startWithLeftFoot = false, int speed = 4, float direction = 43.1f)
     ignoreUnused(startWithLeftFoot, speed, direction);
 }
 
-int buyItem(int itemIdx, int playerMoneyAmount);
 /*
  10)
  */
