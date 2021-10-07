@@ -100,97 +100,97 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
     return {}; //if your function returns something other than void, add 'return {};' at the end of it.
 } 
 
-int SellItem(int itemIdx, int itemValue);
+int sellItem(int itemIdx, int itemValue);
 /*
  1)
  */
-int SellItem(int itemIdx = 12, int itemValue = 100)
+int sellItem(int itemIdx = 12, int itemValue = 100)
 {
     ignoreUnused(itemIdx, itemValue);
     return{};
 }
 
-float CollectInterest(float moneyAmount, float interestPercent, int accountNumber);
+float collectInterest(float moneyAmount, float interestPercent, int accountNumber);
 /*
  2)
  */
-float CollectInterest(float moneyAmount, float interestAmount= 0.075f, int accountNumber = 38742156 )
+float collectInterest(float moneyAmount, float interestAmount= 0.075f, int accountNumber = 38742156 )
 {
     ignoreUnused(moneyAmount, interestAmount, accountNumber);
     return{};
 }
 
-void SaveMidiNoteToList(int midiChannel, int notePitch, int noteVelocity, float timePrecise);
+void saveMidiNoteToList(int midiChannel, int notePitch, int noteVelocity, float timePrecise);
 /*
  3)
  */
-void SaveMidiNoteToList(int midiChannel, int notePitch, int noteVelocity, float timePrecise)
+void saveMidiNoteToList(int midiChannel, int notePitch, int noteVelocity, float timePrecise)
 {
     ignoreUnused(midiChannel, notePitch, noteVelocity, timePrecise);
 }
 
-int ClampInt(int number);
+int clampInt(int number);
 /*
  4)
  */
-int ClampInt(int number)
+int clampInt(int number)
 {
     ignoreUnused(number);
     return{};
 }
 
-float ClampFloat(float number);
+float clampFloat(float number);
 /*
  5)
  */
-float ClampFloat(float number = 354.12f)
+float clampFloat(float number = 354.12f)
 {
     ignoreUnused(number);
     return{};
 }
 
-bool PlaySound(float pitch, float duration);
+bool playSound(float pitch, float duration);
 /*
  6)
  */
-bool PlaySound(float pitch, float duration = 1.3f)
+bool playSound(float pitch, float duration = 1.3f)
 {
     ignoreUnused(pitch, duration);
     return{};
 }
 
-void LogButtonPress(char button, float timePrecise);
+void logButtonPress(char button, float timePrecise);
 /*
  7)
  */
-void LogButtonPress(char button = 'B', float timePrecise = 1443.1534f)
+void logButtonPress(char button = 'B', float timePrecise = 1443.1534f)
 {
     ignoreUnused(button, timePrecise);
 }
 
-void SaveTimeStamp(float timePrecise);
+void saveTimeStamp(float timePrecise);
 /*
  8)
  */
-void SaveTimeStamp(float timePrecise = 4598.2345f)
+void saveTimeStamp(float timePrecise = 4598.2345f)
 {
     ignoreUnused(timePrecise);
 }
 
-void Run(bool startWithLeftFoot, int speed, float direction);
+void run(bool startWithLeftFoot, int speed, float direction);
 /*
  9)
  */
-void Run(bool startWithLeftFoot = false, int speed = 4, float direction = 43.1f)
+void run(bool startWithLeftFoot = false, int speed = 4, float direction = 43.1f)
 {
     ignoreUnused(startWithLeftFoot, speed, direction);
 }
 
-int BuyItem(int itemIdx, int playerMoneyAmount);
+int buyItem(int itemIdx, int playerMoneyAmount);
 /*
  10)
  */
-int BuyItem(int itemIdx, int playerMoneyAmount)
+int buyItem(int itemIdx, int playerMoneyAmount)
 {
     ignoreUnused(itemIdx, playerMoneyAmount);
     return{};
@@ -216,34 +216,34 @@ int main()
     auto carRented = rentACar(6, 2); 
     
     //1)
-    auto moneyReturned = SellItem(4253, 230);
+    auto moneyReturned = sellItem(4253, 230);
     
     //2)
-    auto interestCollected = CollectInterest(6400, 0.055f, 1457457 );
+    auto interestCollected = collectInterest(6400, 0.055f, 1457457 );
     
     //3)
-    SaveMidiNoteToList(4, 75, 121, 4356.1536f);
+    saveMidiNoteToList(4, 75, 121, 4356.1536f);
     
     //4)
-    auto clampedInt = ClampInt(5788);
+    auto clampedInt = clampInt(5788);
     
     //5)
-    auto clampedFloat = ClampFloat(5.65f);
+    auto clampedFloat = clampFloat(5.65f);
     
     //6)
-    auto managedToPlaySound = PlaySound(34.52f, 1.3f);
+    auto managedToPlaySound = playSound(34.52f, 1.3f);
     
     //7)
-    LogButtonPress('V', 4534.2355f);
+    logButtonPress('V', 4534.2355f);
     
     //8)
-    SaveTimeStamp(3456.2344f);
+    saveTimeStamp(3456.2344f);
 
     //9)
-    Run(true, 50, 90.0f);
+    run(true, 50, 90.0f);
 
     //10)
-    auto boughtItemIdx = BuyItem(562, 6000);
+    auto boughtItemIdx = buyItem(562, 6000);
     
     
     ignoreUnused(carRented, moneyReturned, interestCollected, clampedInt, clampedFloat, managedToPlaySound, boughtItemIdx);
