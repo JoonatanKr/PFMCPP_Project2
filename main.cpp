@@ -86,7 +86,7 @@ void variableDeclarations()
 
 
     
-    ignoreUnused(number1,number2,number3,decimal1,decimal2,decimal3,letter1,letter2,letter3,shortNumber1,shortNumber2,shortNumber3,longNumber1,longNumber2,longNumber3,bool1,bool2,bool3); //passing each variable declared to the ignoreUnused() function
+    ignoreUnused(number1, number2, number3, decimal1, decimal2, decimal3, letter1, letter2, letter3, shortNumber1, shortNumber2, shortNumber3, longNumber1, longNumber2, longNumber3, bool1, bool2, bool3); //passing each variable declared to the ignoreUnused() function
 }
 
 /*
@@ -113,7 +113,7 @@ int sellItem(int itemIdx = 12, int itemValue = 100)
 /*
  2)
  */
-float collectInterest(float moneyAmount, float interestAmount= 0.075f, int accountNumber = 38742156 )
+float collectInterest(float moneyAmount, float interestAmount= 0.075f, int accountNumber = 38742156)
 {
     ignoreUnused(moneyAmount, interestAmount, accountNumber);
     return{};
